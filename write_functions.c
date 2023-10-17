@@ -1,4 +1,4 @@
-#include "main.h"
+include "main.h"
 
 /*A character is supposed to be printed*/
 
@@ -78,7 +78,7 @@ int print_string(va_list types, char buffer[],
 /**
  ** print_percent - Prints a percent sign
  ** @types: argument list
- ** @buffer: Buffer array to handle print 
+ ** @buffer: Buffer array to handle print
  ** @flags:  Calculates active flags
  ** @width: supposed to get width
  ** @precision: Precision specification
@@ -158,7 +158,6 @@ int print_binary(va_list types, char buffer[],
 	unsigned int n, m, i, sum;
 	unsigned int a[32];
 	int count;
-
 	UNUSED(buffer);
 	UNUSED(flags);
 	UNUSED(width);
